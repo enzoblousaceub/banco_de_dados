@@ -195,6 +195,7 @@ FROM Funcionarios;
 -- ITEM 7 (Qual o menor e o maior salário dos funcionários da Florianópolis?)
 SELECT MAX(salario), MIN(salario)
 FROM Funcionarios;
+WHERE cidade = 'Florianopolis';
 
 -- ITEM 10(nao tem 8) (Qual o horário da última consulta marcada para o dia 13/06/2024?)
 SELECT MAX(hora)
